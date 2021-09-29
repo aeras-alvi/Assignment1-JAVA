@@ -5,9 +5,7 @@ public class Bank {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		 Scanner sc = new Scanner(System.in);
-		 int a = sc.nextInt();
-		 
-		 System.out.println("Value of a: " + a);
+
          Account bankAccount = new Account();
          
          System.out.println("Press 1 to deposit. \n Press 2 to withdraw");
